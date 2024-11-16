@@ -1,0 +1,10 @@
+C:\Users\JAILM\source\repos\Calculeter\bin\Debug\Calculeter.exe.config
+C:\Users\JAILM\source\repos\Calculeter\bin\Debug\Calculeter.exe
+C:\Users\JAILM\source\repos\Calculeter\bin\Debug\Calculeter.pdb
+C:\Users\JAILM\source\repos\Calculeter\obj\Debug\Calculeter.csproj.AssemblyReference.cache
+C:\Users\JAILM\source\repos\Calculeter\obj\Debug\Calculeter.Form1.resources
+C:\Users\JAILM\source\repos\Calculeter\obj\Debug\Calculeter.Properties.Resources.resources
+C:\Users\JAILM\source\repos\Calculeter\obj\Debug\Calculeter.csproj.GenerateResource.cache
+C:\Users\JAILM\source\repos\Calculeter\obj\Debug\Calculeter.csproj.CoreCompileInputs.cache
+C:\Users\JAILM\source\repos\Calculeter\obj\Debug\Calculeter.exe
+C:\Users\JAILM\source\repos\Calculeter\obj\Debug\Calculeter.pdb

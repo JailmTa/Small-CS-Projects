@@ -1,0 +1,22 @@
+public static int ADDFINALLTEST(int Cul1 , int Cul2 , int Cul3  ) { SqlConnection connection = new SqlConnection(clsAccessSetting.Server());string query = "declare @ID int;exec  SP_ADDFINALLTEST@Cul1 = Cul1 output , @Cul2 = Cul2  , @Cul3 = Cul3 select @ID;" ; SqlCommand command = new SqlCommand(query, connection);command.Parameters.AddWithValue(@Cul2,Cul2);
+command.Parameters.AddWithValue(@Cul3,Cul3);
+try {connection.Open(); object reader = command.ExecuteScalar(); return Convert.ToInt32(reader.ToString());}catch(Exception ex){return 0;}finally{connection.Close();}return 0;}
+
+
+public static int DELETEFINALLTEST(int Cul1) {SqlConnection connection = new SqlConnection(clsAccessSetting.Server());string query="exec SP_DELETEFINALLTEST@Cul1 = Cul1"; SqlCommand command = new SqlCommand(query, connection);command.Parameters.AddWithValue(@Cul1,Cul1);
+try {connection.Open(); int reader = command.ExecuteNonQuery(); return reader;}catch(Exception ex){return 0;}finally{connection.Close();}return 0;}
+
+
+public static int UPDATEFINALLTEST(int Cul1 , int Cul2 , int Cul3  ){SqlConnection connection = new SqlConnection(clsAccessSetting.Server());string query="exec SP_UPDATEFINALLTEST@Cul1 = Cul1 , @Cul2 = Cul2 , @Cul3 = Cul3  "; SqlCommand command = new SqlCommand(query, connection);command.Parameters.AddWithValue(@Cul1,Cul1);
+command.Parameters.AddWithValue(@Cul2,Cul2);
+command.Parameters.AddWithValue(@Cul3,Cul3);
+try {connection.Open(); int reader = command.ExecuteNonQuery(); return reader;}catch(Exception ex){return 0;}finally{connection.Close();}return 0;}
+
+
+public static DataTable FINDFINALLTEST(int Cul1){SqlConnection connection = new SqlConnection(clsAccessSetting.Server());string query="exec SP_FINDFINALLTEST@Cul1 = Cul1 , @Cul2 = Cul2 output , @Cul3 = Cul3 output  "; SqlCommand command = new SqlCommand(query, connection);command.Parameters.AddWithValue(@Cul1,Cul1);
+try {connection.Open(); int reader = command.ExecuteNonQuery(); return reader;}catch(Exception ex){return 0;}finally{connection.Close();}return 0;}
+
+
+public static DataTable GETALLFINALLTEST(){ SqlConnection connection = new SqlConnection(clsAccessSetting.Server());string query =" select * from dbo.GETALLFINALLTEST()" SqlCommand command = new SqlCommand(query, connection);try {connection.Open();DataTable dt=new DataTable(); SqlDataReader reader = command.ExecuteReader(); if (reader.HasRows){dt.Load(reader);return dt;}else{return null;}}catch(Exception ex){return null;}finally{connection.Close();}return null;}
+
+

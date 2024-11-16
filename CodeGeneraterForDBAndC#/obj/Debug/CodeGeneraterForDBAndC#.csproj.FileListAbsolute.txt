@@ -1,0 +1,12 @@
+C:\Users\JAILM\source\repos\CodeGeneraterForDBAndC#\bin\Debug\CodeGeneraterForDBAndC#.exe.config
+C:\Users\JAILM\source\repos\CodeGeneraterForDBAndC#\bin\Debug\CodeGeneraterForDBAndC#.exe
+C:\Users\JAILM\source\repos\CodeGeneraterForDBAndC#\bin\Debug\CodeGeneraterForDBAndC#.pdb
+C:\Users\JAILM\source\repos\CodeGeneraterForDBAndC#\bin\Debug\Guna.UI2.dll
+C:\Users\JAILM\source\repos\CodeGeneraterForDBAndC#\obj\Debug\CodeGeneraterForDBAndC#.csproj.AssemblyReference.cache
+C:\Users\JAILM\source\repos\CodeGeneraterForDBAndC#\obj\Debug\CodeGeneraterForDBAndC_.Form1.resources
+C:\Users\JAILM\source\repos\CodeGeneraterForDBAndC#\obj\Debug\CodeGeneraterForDBAndC_.Properties.Resources.resources
+C:\Users\JAILM\source\repos\CodeGeneraterForDBAndC#\obj\Debug\CodeGeneraterForDBAndC#.csproj.GenerateResource.cache
+C:\Users\JAILM\source\repos\CodeGeneraterForDBAndC#\obj\Debug\CodeGeneraterForDBAndC#.csproj.CoreCompileInputs.cache
+C:\Users\JAILM\source\repos\CodeGeneraterForDBAndC#\obj\Debug\CodeGeneraterForDBAndC#.csproj.CopyComplete
+C:\Users\JAILM\source\repos\CodeGeneraterForDBAndC#\obj\Debug\CodeGeneraterForDBAndC#.exe
+C:\Users\JAILM\source\repos\CodeGeneraterForDBAndC#\obj\Debug\CodeGeneraterForDBAndC#.pdb

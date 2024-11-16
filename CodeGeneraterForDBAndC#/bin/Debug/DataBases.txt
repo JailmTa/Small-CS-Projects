@@ -1,0 +1,15 @@
+create procedure SP_ADDS(@a a output , @b b , @c c , @d d  ) as begin insert into s(b , c , d  ) values (@b , @c , @d  ); set @a= Scope_Identity(); end ;
+
+
+create procedure SP_DELETES(@a a     )  as begin delete from s where @a=a end ;
+
+
+create procedure SP_UPDATES(@a a , @b b , @c c , @d d   ) as begin update s set @b=b , @c=c , @d=d   where @a=a end ;
+
+
+create procedure SP_FINDS(@a a , @b b output , @c c output , @d d output   ) as begin select @b=b , @c=c , @d=d   from s where @a=a end ;
+
+
+create function dbo.GetAlls() returns table as return(select * from s);
+
+

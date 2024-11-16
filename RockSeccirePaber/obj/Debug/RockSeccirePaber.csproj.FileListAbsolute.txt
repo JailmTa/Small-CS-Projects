@@ -1,0 +1,13 @@
+C:\Users\JAILM\source\repos\RockSeccirePaber\bin\Debug\RockSeccirePaber.exe.config
+C:\Users\JAILM\source\repos\RockSeccirePaber\bin\Debug\RockSeccirePaber.exe
+C:\Users\JAILM\source\repos\RockSeccirePaber\bin\Debug\RockSeccirePaber.pdb
+C:\Users\JAILM\source\repos\RockSeccirePaber\obj\Debug\RockSeccirePaber.csproj.AssemblyReference.cache
+C:\Users\JAILM\source\repos\RockSeccirePaber\obj\Debug\RockSeccirePaber.Form1.resources
+C:\Users\JAILM\source\repos\RockSeccirePaber\obj\Debug\RockSeccirePaber.Properties.Resources.resources
+C:\Users\JAILM\source\repos\RockSeccirePaber\obj\Debug\RockSeccirePaber.csproj.GenerateResource.cache
+C:\Users\JAILM\source\repos\RockSeccirePaber\obj\Debug\RockSeccirePaber.csproj.CoreCompileInputs.cache
+C:\Users\JAILM\source\repos\RockSeccirePaber\obj\Debug\RockSeccirePaber.exe
+C:\Users\JAILM\source\repos\RockSeccirePaber\obj\Debug\RockSeccirePaber.pdb
+C:\Users\JAILM\source\repos\RockSeccirePaber\bin\Debug\Guna.UI2.dll
+C:\Users\JAILM\source\repos\RockSeccirePaber\obj\Debug\RockSeccirePaber.Form2.resources
+C:\Users\JAILM\source\repos\RockSeccirePaber\obj\Debug\RockSeccirePaber.csproj.CopyComplete

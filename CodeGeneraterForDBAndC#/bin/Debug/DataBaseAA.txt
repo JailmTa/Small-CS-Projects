@@ -1,0 +1,15 @@
+create procedure SP_ADDAA(@A A output , ) as begin insert into AA() values (); set @A= Scope_Identity(); end ;
+
+
+create procedure SP_DELETEAA(@A A     )  as begin delete from AA where @A=A end ;
+
+
+create procedure SP_UPDATEAA(@A A , ) as begin update AA set  where @A=A end ;
+
+
+create procedure SP_FINDAA(@A A , ) as begin select  from AA where @A=A end ;
+
+
+create function dbo.GetAllAA() returns table as return(select * from AA);
+
+

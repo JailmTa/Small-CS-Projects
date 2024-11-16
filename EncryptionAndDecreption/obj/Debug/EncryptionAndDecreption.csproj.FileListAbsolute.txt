@@ -1,0 +1,12 @@
+C:\Users\JAILM\source\repos\EncryptionAndDecreption\bin\Debug\EncryptionAndDecreption.exe.config
+C:\Users\JAILM\source\repos\EncryptionAndDecreption\bin\Debug\EncryptionAndDecreption.exe
+C:\Users\JAILM\source\repos\EncryptionAndDecreption\bin\Debug\EncryptionAndDecreption.pdb
+C:\Users\JAILM\source\repos\EncryptionAndDecreption\obj\Debug\EncryptionAndDecreption.csproj.AssemblyReference.cache
+C:\Users\JAILM\source\repos\EncryptionAndDecreption\obj\Debug\EncryptionAndDecreption.Form1.resources
+C:\Users\JAILM\source\repos\EncryptionAndDecreption\obj\Debug\EncryptionAndDecreption.Properties.Resources.resources
+C:\Users\JAILM\source\repos\EncryptionAndDecreption\obj\Debug\EncryptionAndDecreption.csproj.GenerateResource.cache
+C:\Users\JAILM\source\repos\EncryptionAndDecreption\obj\Debug\EncryptionAndDecreption.csproj.CoreCompileInputs.cache
+C:\Users\JAILM\source\repos\EncryptionAndDecreption\obj\Debug\EncryptionAndDecreption.exe
+C:\Users\JAILM\source\repos\EncryptionAndDecreption\obj\Debug\EncryptionAndDecreption.pdb
+C:\Users\JAILM\source\repos\EncryptionAndDecreption\bin\Debug\Guna.UI2.dll
+C:\Users\JAILM\source\repos\EncryptionAndDecreption\obj\Debug\EncryptionAndDecreption.csproj.CopyComplete

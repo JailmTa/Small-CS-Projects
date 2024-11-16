@@ -1,0 +1,10 @@
+C:\Users\JAILM\source\repos\Ter-x Runner\bin\Debug\Ter-x Runner.exe.config
+C:\Users\JAILM\source\repos\Ter-x Runner\bin\Debug\Ter-x Runner.exe
+C:\Users\JAILM\source\repos\Ter-x Runner\bin\Debug\Ter-x Runner.pdb
+C:\Users\JAILM\source\repos\Ter-x Runner\obj\Debug\Ter-x Runner.csproj.AssemblyReference.cache
+C:\Users\JAILM\source\repos\Ter-x Runner\obj\Debug\Ter_x_Runner.Form1.resources
+C:\Users\JAILM\source\repos\Ter-x Runner\obj\Debug\Ter_x_Runner.Properties.Resources.resources
+C:\Users\JAILM\source\repos\Ter-x Runner\obj\Debug\Ter-x Runner.csproj.GenerateResource.cache
+C:\Users\JAILM\source\repos\Ter-x Runner\obj\Debug\Ter-x Runner.csproj.CoreCompileInputs.cache
+C:\Users\JAILM\source\repos\Ter-x Runner\obj\Debug\Ter-x Runner.exe
+C:\Users\JAILM\source\repos\Ter-x Runner\obj\Debug\Ter-x Runner.pdb

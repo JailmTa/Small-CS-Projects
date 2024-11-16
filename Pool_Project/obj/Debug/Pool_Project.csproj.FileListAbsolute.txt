@@ -1,0 +1,13 @@
+C:\Users\JAILM\source\repos\Pool_Project\obj\Debug\Pool_Project.csproj.AssemblyReference.cache
+C:\Users\JAILM\source\repos\Pool_Project\bin\Debug\Pool_Project.exe.config
+C:\Users\JAILM\source\repos\Pool_Project\bin\Debug\Pool_Project.exe
+C:\Users\JAILM\source\repos\Pool_Project\bin\Debug\Pool_Project.pdb
+C:\Users\JAILM\source\repos\Pool_Project\bin\Debug\Guna.UI2.dll
+C:\Users\JAILM\source\repos\Pool_Project\obj\Debug\Pool_Project.PoolTable.resources
+C:\Users\JAILM\source\repos\Pool_Project\obj\Debug\Pool_Project.Properties.Resources.resources
+C:\Users\JAILM\source\repos\Pool_Project\obj\Debug\Pool_Project.csproj.GenerateResource.cache
+C:\Users\JAILM\source\repos\Pool_Project\obj\Debug\Pool_Project.csproj.CoreCompileInputs.cache
+C:\Users\JAILM\source\repos\Pool_Project\obj\Debug\Pool_Project.csproj.CopyComplete
+C:\Users\JAILM\source\repos\Pool_Project\obj\Debug\Pool_Project.exe
+C:\Users\JAILM\source\repos\Pool_Project\obj\Debug\Pool_Project.pdb
+C:\Users\JAILM\source\repos\Pool_Project\obj\Debug\Pool_Project.Form1.resources

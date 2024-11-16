@@ -1,0 +1,15 @@
+create procedure SP_ADDPERSON(@PersonID int output , @Name string  ) as begin insert into Person(Name  ) values (@Name  ); set @PersonID= Scope_Identity(); end ;
+
+
+create procedure SP_DELETEPERSON(@PersonID int     )  as begin delete from Person where @PersonID=PersonID end ;
+
+
+create procedure SP_UPDATEPERSON(@PersonID int , @Name string   ) as begin update Person set @Name=Name   where @PersonID=PersonID end ;
+
+
+create procedure SP_FINDPERSON(@PersonID int , @Name string output   ) as begin select @Name=Name   from Person where @PersonID=PersonID end ;
+
+
+create function dbo.GetAllPerson() returns table as return(select * from Person);
+
+

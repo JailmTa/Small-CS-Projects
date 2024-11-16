@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7A87FE4F-255A-420F-8736-AB03F83B4C7B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>TrixScoreRecordeer</RootNamespace>
+    <AssemblyName>TrixScoreRecordeer</AssemblyName>
+    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>packages\Guna.UI2.WinForms.2.0.4.6\lib\net48\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="clsGameRecorder.cs" />
+    <Compile Include="ctrlTabController.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctrlTabController.Designer.cs">
+      <DependentUpon>ctrlTabController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDimoned.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDimoned.Designer.cs">
+      <DependentUpon>frmDimoned.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmKingOfHart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKingOfHart.Designer.cs">
+      <DependentUpon>frmKingOfHart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQueen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQueen.Designer.cs">
+      <DependentUpon>frmQueen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCollaction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCollaction.Designer.cs">
+      <DependentUpon>frmCollaction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSetNames.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSetNames.Designer.cs">
+      <DependentUpon>frmSetNames.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTrix.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTrix.Designer.cs">
+      <DependentUpon>frmTrix.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ctrlTabController.resx">
+      <DependentUpon>ctrlTabController.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDimoned.resx">
+      <DependentUpon>frmDimoned.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKingOfHart.resx">
+      <DependentUpon>frmKingOfHart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQueen.resx">
+      <DependentUpon>frmQueen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCollaction.resx">
+      <DependentUpon>frmCollaction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSetNames.resx">
+      <DependentUpon>frmSetNames.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTrix.resx">
+      <DependentUpon>frmTrix.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-king-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-cards-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-queen-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-king-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-diamonds-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-cards-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-heart-96 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-heart-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-diamonds-96 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-clubs-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-microsoft-solitaire-collection-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-edit-64.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

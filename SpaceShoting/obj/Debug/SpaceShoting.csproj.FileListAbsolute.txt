@@ -1,0 +1,10 @@
+C:\Users\JAILM\source\repos\SpaceShoting\bin\Debug\SpaceShoting.exe.config
+C:\Users\JAILM\source\repos\SpaceShoting\bin\Debug\SpaceShoting.exe
+C:\Users\JAILM\source\repos\SpaceShoting\bin\Debug\SpaceShoting.pdb
+C:\Users\JAILM\source\repos\SpaceShoting\obj\Debug\SpaceShoting.csproj.AssemblyReference.cache
+C:\Users\JAILM\source\repos\SpaceShoting\obj\Debug\SpaceShoting.Form1.resources
+C:\Users\JAILM\source\repos\SpaceShoting\obj\Debug\SpaceShoting.Properties.Resources.resources
+C:\Users\JAILM\source\repos\SpaceShoting\obj\Debug\SpaceShoting.csproj.GenerateResource.cache
+C:\Users\JAILM\source\repos\SpaceShoting\obj\Debug\SpaceShoting.csproj.CoreCompileInputs.cache
+C:\Users\JAILM\source\repos\SpaceShoting\obj\Debug\SpaceShoting.exe
+C:\Users\JAILM\source\repos\SpaceShoting\obj\Debug\SpaceShoting.pdb
